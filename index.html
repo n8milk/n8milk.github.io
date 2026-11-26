@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cocoden8 | 포트폴리오</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#intro">cocoden8</a>
+    <nav aria-label="포트폴리오 메뉴">
+      <a href="#intro">Introduction</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </aside>
+
+  <main>
+    <section id="intro">
+      <div class="intro-layout">
+        <div class="intro-header">
+          <h1>안녕하세요.<wbr>cocoden8입니다.</h1>
+          <p class="intro-subtitle">이름처럼 함께(co) 개발(code)하고 싶은 <b>백엔드 개발자</b>입니다.<br>
+            기존 시스템의 맥락을 읽어내 새롭게 다듬고, 새 기술에 주저 없이 도전합니다.</p>
+          <p class="intro-description">맡은 일은 끝까지 책임지고 동료들과 기준을 맞추며 성장해 왔습니다.<br>
+            순탄치 않았던 시간조차 단단한 밑거름으로 삼아, 현장에서 제 몫을 다하겠습니다.</p>
+        </div>
+        <img class="intro-image" src="./images/intro-workspace.png" width="1448" height="1086"
+          alt="노트에 시스템 구조를 그리는 손과 노트북">
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <dl class='skill-grid'>
+        <div>
+          <dt>Backend</dt>
+          <dd>Java / Spring Boot<br>Python / Django<br>Javascript / Nest.js</dd>
+        </div>
+        <div>
+          <dt>DB / Cache</dt>
+          <dd>Oracle, MySQL, PostgreSQL<br>Redis</dd>
+        </div>
+        <div>
+          <dt>OS</dt>
+          <dd>Windows<br>Linux<br>AWS Linux</dd>
+        </div>
+        <div>
+          <dt>Tools / Test Code</dt>
+          <dd>IntelliJ, Eclipse, VS Code<br>Junit5, Mockito</dd>
+        </div>
+        <div>
+          <dt>Collaborations</dt>
+          <dd>Git<br>GitLab, Slack, Notion, Jira</dd>
+        </div>
+        <div>
+          <dt>Infra / DevOps</dt>
+          <dd>Docker, Kubernetes(K8s), AWS, Jenkins</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio-list">
+        <article>
+          <div class="portfolio-image-frame"><img class="portfolio-image" src="./images/portfolio1.webp" alt="PowerSecu 프로젝트 이미지" loading="lazy"></div>
+          <div class="portfolio-content">
+          <h3>PowerSecu 솔루션</h3>
+          <p>AI 에이전트 보급에 따라 MCP 서버를 관리하는 솔루션을 개발했습니다. 시장 조사, 분석, 기획, 개발, 배포 및 문서화를 담당했습니다.</p>
+          <div class="portfolio-details">
+            <p>기존 솔루션을 분석해 대상 고객의 실무 요구에 맞는 제품 방향을 정하고, Phase 3의 마일스톤과 이슈를 정리했습니다.</p>
+            <p>AI로 개발한 기능을 직접 테스트해 정규화와 재사용성 문제를 확인했습니다. 이를 바탕으로 초기 설계 오류를 수정하고 사용자 편의를 고려해 UX를 개선했습니다.</p>
+          </div>
+          </div>
+        </article>
+        <article>
+          <div class="portfolio-image-frame"><img class="portfolio-image" src="./images/portfolio2.webp" alt="KT 사내 데이터 포털 프로젝트 이미지" loading="lazy"></div>
+          <div class="portfolio-content">
+          <h3>KT 사내 데이터 포털</h3>
+          <p>기존 BI/DW 포털을 분석하고 1차 개발된 데이터 포털과 통합하여 백엔드를 개발했습니다.</p>
+          <div class="portfolio-details">
+            <p>두 포털의 데이터와 승인 절차 차이를 분석해 승인 이후 작업을 배치 처리로 통합하고, 기존 승인 절차가 정상 동작하는지 확인했습니다.</p>
+            <p>파일 관련 기능과 예외 처리를 공통화해 관리 지점을 줄였습니다. DRM 연동을 외부 서버 방식으로 변경하고 외부 솔루션 연동을 완료했습니다.</p>
+          </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experiences">
+      <h2>Experiences</h2>
+      <div class='entries'>
+        <article>
+          <h3>누리꿈소프트</h3>
+          <p class='meta'>2026. 04 ~ 2026. 11</p>
+          <p>KT의 BI/DW 기존 포탈을 분석하여 백엔드를 개발했습니다. AI를 활용하여 자사 솔루션 PowerSecu(MCP Gateway)을 개발했습니다.</p>
+          <p>창업 이후 첫 취업이었지만, 경영 악화로 전체상실 되었습니다.</p>
+        </article>
+        <article>
+          <h3>GQuest</h3>
+          <p class='meta'>2023. 06 ~ 2025. 12</p>
+          <p>Coffee 원부자재 가격 동향 추척 시스템 Cuppin 백엔드를 개발했습니다. Node로 처음 백엔드를 개발했고, Dev Ops를 담당했습니다.</p>
+          <p>동업으로 시작한 창업이었지만 영업실패로 접게 되었습니다.</p>
+        </article>
+        <article>
+          <h3>서원정보</h3>
+          <p class='meta'>2020. 05 ~ 2023. 05</p>
+          <p>신세계 클라우드 플랫폼, SKNX 및 SKC의 SPC 프론트엔드, 백엔드를 개발했습니다. 주니어 개발자를 이끌고 프로젝트를 완수했습니다.</p>
+        </article>
+        <article>
+          <h3>리걸테크</h3>
+          <p class='meta'>2019. 11 ~ 2020. 04</p>
+          <p>클라우드 보안 프로그램 AOS BOX를 개발했습니다. python을 실무에서 처음 사용했습니다.</p>
+          <p>코로나로 인한 투자금 축소에 따른 경영 악화로 상실되었습니다.</p>
+        </article>
+        <article>
+          <h3>우진티앤에스</h3>
+          <p class='meta'>2019. 05 ~ 2019. 10</p>
+          <p>국토교통부 과태료 시스템을 유지보수했습니다. 법령 개정에 맞춰 시스템을 업그레이드 했습니다.</p>
+        </article>
+        <article>
+          <h3>느티엔티</h3>
+          <p class='meta'>2017. 09 ~ 2019. 05</p>
+          <p>고용노동부, 한국산업공단, SK, SK broadband, 철강협회 등의 프로젝트를 진행했습니다. JSP, jQuery로 시작하여 springboot, vue까지 경험했습니다.</p>
+          <p>경영 악화로 전체상실 되었습니다.</p>
+        </article>
+        <article>
+          <h3>다산소프트</h3>
+          <p class='meta'>2016. 11 ~ 2017. 07</p>
+          <p>우리은행 차세대 프로젝트에서 여신 부분을 맡았습니다. cobol로 된 기존 코드를 분석하고 xplatform과 C로 개발했습니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class='entries'>
+        <article>
+          <h3>포스텍 AI, Big Data 기초과정 / POSTECH</h3>
+          <p class='meta'>2020. 01 ~ 2020. 04</p>
+          <p>컴퓨터 공학 및 컴퓨터 사고, 블록체인, R프로그래밍 이수</p>
+        </article>
+        <article>
+          <h3>웹 프로그래밍 심화과정 / 한큐에자바</h3>
+          <p class='meta'>2017. 06 ~ 2017. 10</p>
+          <p>전자정부프레임워크를 활용한 MVC 패턴 심화 및 숙달 과정</p>
+        </article>
+        <article>
+          <h3>클라우드 기반 자바융합 개발 과정 / KG IT BANK</h3>
+          <p class='meta'>2016. 03 ~ 2016. 08</p>
+          <p>JSP 및 Java, Oracle, JSP, Linux, Spring을 활용한 웹 프로그래밍</p>
+        </article>
+        <article>
+          <h3>온라인게임프로그래밍 / 서울게임아카데미</h3>
+          <p class='meta'>2014. 10 ~ 2015. 10</p>
+          <p>C++(console, API)을 이용한 전반적인 컴퓨터 프로그래밍 이해<br>C#(DirectX3D, Unity)을 통해 실무에 필요한 이론 및 기술 숙달</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>정보처리기사 (2019.08)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul class='contact-list'>
+        <li>Email: <a href='mailto:n8milk@gmail.com'>n8milk@gmail.com</a></li>
+        <li>Github: <a href='https://github.com/n8milk'>github.com/n8milk</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
